@@ -21,7 +21,7 @@ const main = () => {
 							</span>
 	
 					<span className="author-name-tagline">
-								Hampton Scott Tonk
+					John Kilian
 								</span>
 					<p style={{textAlign: "justify"}}>
 					John Kilian is a military officer and a former military intelligence analyst. He lives with his family in Middletown, CT,
