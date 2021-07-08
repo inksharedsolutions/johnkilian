@@ -1,0 +1,137 @@
+
+
+.footer-section{
+    padding: 7em 0;
+    background: #3c3c3c;
+}
+
+#style_soc_medias{
+	text-align: right;
+
+	a{
+      padding: 0 26px;
+      color: #eee;
+	}
+}
+
+// .navlist-footer-column{
+
+//     &:after{
+// 	    content: '';
+// 	    display: block;
+// 	    width: 1081px;
+// 	    height: 1px;
+// 	    background: #545454;
+// 	    margin: 54px auto;
+// 	}
+// }
+.logo-footer-container{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.trademark-heading{
+	h1{
+	    // text-align: left;
+	    color: #eeee;
+	    text-transform: uppercase;
+	    display: inline-block;
+		// margin-left: 1.45em !important;
+		font-size: 2.0em;
+	}
+	p{
+		font-size: 14px;
+	    margin-top: 20px;
+	    color: #737373;
+	    width: 550px;
+	}
+}
+
+.images-portray{
+	img{
+		width: 80px;
+	    max-width: 100%;
+		margin: 0;
+	}
+}
+
+.footer-nav-list{
+	text-align: right;
+	li {
+		display: inline-block;
+   		padding: 10px 25px;
+   		text-transform: uppercase;
+    	font-size: 12px;
+	}
+
+	a{
+		color: #fff;
+	}
+
+	&:after{
+	    content: '';
+	    display: block;
+	    width: 93%;
+	    height: 1px;
+	    background: #545454;
+	    margin: 25px auto;
+	}
+}	
+
+
+.lower-nav-footer{
+		
+	display:block;
+
+
+	&:before{
+		display: block;
+	    content: '';
+	    position: absolute;
+	    background: #6b6b6b;
+	    height: 1px;
+	    width: 264px;
+	}
+
+	li{
+		font-size: 11px;
+   	 	display: inline-block;
+   	 	margin-top: 40px;
+	}
+
+	a{
+		margin-right: 28px;
+    	color: #888787;
+	}
+}
+
+.footer-copyright{
+	font-size: 10px;
+    letter-spacing: 2px;
+    color: #adadad;
+    text-transform: uppercase;
+}
+
+.footer-year{
+	margin-right: 14px;
+    color: #eab83d;
+}
+
+.info-section-address{
+    text-align: center;
+    margin: 39px 0;
+    border-top: 1px solid #eee;
+    span{
+    	display: block;
+	    font-weight: 100 !important;
+	    margin: 30px 0px;
+	    font-size: 13px;
+	    h5{
+	    	text-align: center;
+		    margin: 21px 0 !important;
+		    letter-spacing: 5px;
+		    text-transform: uppercase;
+	    }
+    }
+}

@@ -1,0 +1,63 @@
+#bottomWrapper{
+    padding: 4em 0em;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.newsletterHeading{
+	font-size: 7vmin;
+    font-family: 'Montserrat', sans-serif;
+    color: #484848;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px !important;
+}
+
+.buttonNewsletter{
+	background: #febc13;
+    padding: 15px 74px;
+    color: #fff;
+    box-shadow: 0px 2px 13px #e4e4e4;
+    border:none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+        
+.errorInput{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #f99b9b !important;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    -webkit-transition: border .3s, -webkit-box-shadow .3s;
+    -webkit-transition: box-shadow .3s, border .3s;
+    transition: box-shadow .3s, border .3s;
+}
+
+.inputStyles{
+     // border-bottom: 1px solid #b3b3b3 !important;
+}
+
+.spanMess{
+    color: #ff4545;
+    font-size: 11px;  
+}
+
+
+#pd-elementor-apex [name="email"]{
+    width: 85%;
+    padding: 10px;
+    margin: 26px 0;
+}

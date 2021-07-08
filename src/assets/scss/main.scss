@@ -1,0 +1,267 @@
+
+
+.main-section{
+	padding: 6% 0;
+}
+
+.wrapper-heading-content{
+  
+  &:after{
+  	content: ''; 
+    width: 85px;
+    height: 2px;
+    background: #feda57;
+    position: absolute;
+    margin: 12px 0;
+  }
+
+  h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 6em;
+  }                     
+}
+
+.btn-main-customize{
+    background: #f3dfc3;
+    border: none;
+    padding: 1rem 5rem;
+    margin-top: 37px;
+    a{
+        color: #92691e;
+        background: #f3dfc3;
+        border: none;
+        padding: 1rem 0.8rem;
+        margin-top: 37px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+.icon-auhtor{
+	img{
+        width: 70px;
+        margin: 0;
+	}
+}
+
+.author-name-tagline{
+	
+    position: absolute;
+    margin: 17px;
+    letter-spacing: 2px;
+    color: #deab1c;
+
+}
+   
+.author-fx{
+    text-transform: uppercase;
+    color: #292927;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/*Main Bottom Section*/
+
+.main-bottom-section{
+    background: #eee;
+    // padding: 43px;
+
+}
+
+.section-main-contents{
+    margin-top: 4em;
+}
+
+.main-bottom-wrapper{
+
+    padding: 3rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    h1{
+        &:after{    
+            content: '';
+            width: 85px;
+            height: 2px;
+            background: #feda57;
+            position: absolute;
+            margin: 54px -177px;
+        }
+    }
+}
+
+.main-subcontent-fx{
+    color: #888888;
+    margin: 31px 0;
+    font-size: 16px;
+}
+
+
+/*Tiles */
+
+.tiles-height{
+    height: 250px;
+    background: #f3d09d;
+
+    img{
+        width: 250px;
+    }
+}
+
+.full-layout-boxstyle{
+
+    background: #fffefe;
+    padding: 20px; 
+    
+    img{
+       margin: 0 auto;
+        width: 80%;
+    }
+}
+
+/*icons logo*/
+.feautured-links-logo{
+
+    margin: 4%;
+    text-align: center;
+
+    ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 800px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    img{
+        width: 160px;
+        max-width: 100%;
+    }
+}
+
+.content{
+    font-size: 14px;
+    text-align: left;
+    color: #737171;
+}
+
+.btn-redirect{
+    a{
+        color: #c38a08;
+        text-transform: uppercase;
+        margin-left: 5px;
+        font-size: 11px;
+        text-decoration: underline;
+    }
+}
+
+.books-images-sides{
+    background: #ffff;
+    img{
+        margin: 0;
+        background: #fffe;
+        padding: 31px;
+        width: 212px;
+    }
+
+    &:nth-child(1){
+        margin-right: 15px;
+    }
+    &:nth-child(2){
+        margin-left: 15px;
+    }
+}
+
+.image-qoute{
+    padding: 0 !important;
+    h1{
+        padding: 1.3em;
+        line-height: 1.2;
+        background: #f3f3f3;
+        &:after{
+            display:none;
+        }
+    } 
+} 
+
+
+.book-wrapper-slider{
+    // background: #fff;
+    // padding: 3%;
+    // box-shadow: -1px 1px 28px 4px #f1f1f1;
+    // border-radius: 50px;
+    // margin: 4% auto;
+    // max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 100px;
+
+    img{
+        // height: 450px;
+        transition: transform .2s ease;
+    }
+
+    .img-link:hover{
+        transform: scale(1.1);
+    }
+
+}
+
+/*Slick Custom*/
+
+.slick-list{
+    margin-top: 3em !important;
+}
+
+.slick-slider{
+    margin: 0 70px;
+}
+
+.slick-list{
+    margin-top: 4em;
+}
+
+.slick-initialized .slick-slide{
+    text-align: center;
+    padding: 0 10px;
+    h3{
+        font-size: 2em;
+        color: #000;
+        margin: 0.6em;
+        font-weight: bold;
+    }
+}
+.slick-active{
+    text-align: center !important;
+
+    img{
+        margin: 0 auto;
+    }
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #fdda55 !important;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #fee380 !important;
+    position: relative;
+    z-index: 10 !important;
+    font-size: 40px !important;
+}
+
+.slick-prev, .slick-next{
+    margin:0 !important;
+}
+
+.slick-prev{
+    z-index: 10 !important;
+    left: 0 !important;
+}
+
+.slick-next{
+    right: 15px !important;
+}

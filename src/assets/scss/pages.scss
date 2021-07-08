@@ -1,0 +1,335 @@
+
+/*Pages*/
+
+
+@import "responsive.scss";
+
+$primary-font: "Quicksand", sans-serif !important;
+$prm-font-size : 12px;
+
+
+.columns{
+	margin-bottom: 0;
+}
+
+.body-author-contents{
+    margin: 4em 0 !important;
+    // background: #eee;
+    padding: 44px;
+}
+
+.title-wrapper{
+    h1{
+        font-weight: 900;
+        font-size: 2.1em;
+        text-align: left;
+    }
+    p{
+        font-weight: bold;
+        margin-bottom: 38px !important;
+    }
+}
+
+.heading-quote{
+
+	padding: 0 59px;
+    // margin-top: 85px;
+
+	h4{
+	    font-weight: 100;
+	    line-height: 1.7;
+	    font-size: 20px;
+	    font-style: italic;
+	    margin-top: 49px !important;
+	}
+}
+
+.ata-span-fx{
+    font-size: 13px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 29px;
+    display: block;
+    color: #79620a;
+    font-weight: bold;
+}
+
+.author-image-container{
+	img{
+	    width: 178px;
+	    border: 12px solid #e0e0db57;
+	}
+}
+
+.article-section{
+	p{
+		font-size: 15px;
+	    line-height: 2.2;
+	    // text-align: justify;
+	    color: #292828;
+	}
+}
+
+.author-name{
+    position: absolute;
+    font-size: 26px;
+    margin: 60px 16px;
+
+    .author-span-ft{
+	    display: block;
+	    font-size: 9px;
+	    letter-spacing: 4px;
+	    margin-bottom: 9px;
+	    color: #e2b510;
+	    text-transform: uppercase;
+    }
+}
+
+
+/*About The Book*/
+.wrapperMain{
+    margin: 123px 0;
+}
+
+.bookImgContainer{
+
+	text-align: center;
+
+	img{
+		max-width: 100%;
+        width: 75%;
+	    padding: 0px;
+	    border: 29px solid #fff;
+        margin:0;
+	}
+}
+
+.fullSection{
+    padding: 2em 3em;
+    line-height: 0;
+}
+
+.contentBook, .fullSection{
+
+    text-align: justify;
+    line-height: 2;
+    padding: 2rem;
+    
+    p{
+    	margin-bottom: 14px;
+    	line-height: 2;
+    	font-size: 15px !important;
+    }
+}
+
+
+.booklinkBlocks{
+    background: none !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    line-height: normal !important;
+    height: auto; 
+    margin-top: 20px;
+    text-align: right;
+
+    span{
+        margin-right: 13px;
+        display: block;
+        margin-bottom: 16px;
+        font-style: italic;
+        font-size: 12px;
+    }
+
+    li{
+        list-style: none;
+        display: inline-block;
+        padding: 0 4px;
+    }
+     
+    a{
+        text-decoration: none;
+        background: #05006a;
+        padding: 4px 15px;
+        color: #fff;
+        font-size: 13px;
+    }
+
+}
+
+/*Contact*/
+.formInputs{
+    margin-top: 11px !important;
+    padding: 0.89em 0.246em !important;
+    border: 1px solid #cccccc !important;
+    color: #636363ee !important;
+    border-radius: 1px !important;
+    width: 100% !important;
+    max-width: 100%;
+}
+
+
+#form-wrapper, #textAreaContainer{
+    label{
+        display: block;
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-bottom: 13px;
+    }
+}
+       
+.asterisk {
+	color: #fd1111;
+    padding: 7px;
+}
+
+.contactMessage{
+	font-size: 25px;
+    margin-bottom: 24px !important;	
+}
+
+.flexMainContainer{
+	margin: 71px 0;
+}
+
+.textArea{
+    height: 250px;
+    border: 1px solid #cecece;
+    width: 100%;	
+}
+
+.abtiaryButton{
+    padding: 13px 74px;
+    border: none;
+    background: #f79530;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 39px;
+}
+
+.buttonContainer{
+	 text-align: center;
+}
+
+.notValidForm{
+    margin-top: 11px !important;
+    padding: 1px 6px !important;
+    border: 1px solid #ffa8a8ee !important;	
+    color: #636363ee !important;
+    border-radius: 1px !important;
+    width: 97% !important;
+    max-width: 100%;
+}
+
+.invalidMessage{
+    color: #e83f3f;	
+}
+
+.errorHandler{
+	background: #f18d8d;
+    padding: 18px;
+    margin-bottom: 45px;
+    border-radius: 7px;
+    color: #efff;
+}
+
+.spanErrorRequired{
+    color: #ff8a8a;
+}
+
+.CommentSection{
+    margin-bottom: 50px;
+}
+
+.content_body_paragraphs{
+    margin: 106px 0;
+    line-height: 2;
+}
+
+
+.disqus-container-bars{
+      margin-top: 87px;  
+}
+
+/*Forms*/
+.formSuccess{
+    background: #57c57e;
+    padding: 20px;
+    margin-bottom: 21px;
+    color: #ffffff;
+}
+
+.errorForm{
+    background: #ffd7d7;
+    padding: 20px;
+    margin-bottom: 21px;
+    color: #ff5a5a;
+}
+
+.flex-container-fx{
+    max-width:1000px;
+    margin:0 auto;
+    padding: 0 46px;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .booklinkBlocks{
+        text-align: center;
+    }
+}
+
+/*privacy-policy-content*/
+
+#privacy-policy-content, 
+#terms-and-conditions-content{
+    margin: 7em 5%;
+
+    h2{
+        margin-bottom: 1em !important;
+
+        &:after{
+            content: '';
+            width: 101px;
+            height: 2px;
+            background-color: #feda57;
+            display: block;
+            margin: 11px 0;
+        }
+    }
+
+    p{
+        text-align: justify;
+    }
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:#e4e4e4;
+    font-family: $primary-font;
+    font-size: $prm-font-size;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color:#e4e4e4;
+    font-family: $primary-font;
+    font-size: $prm-font-size;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color:#e4e4e4;
+    font-family: $primary-font;
+    font-size: $prm-font-size;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color:#e4e4e4;
+    font-family: $primary-font;
+    font-size: $prm-font-size;
+}
+
+
+/*DISQUS*/
+
+#thread__wrapper{
+    padding: 33px;
+}

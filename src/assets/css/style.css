@@ -1,0 +1,8 @@
+
+.main-navigation{
+	background: #eee;
+}
+
+.main-navigation li {
+	display: inline-block;
+}
