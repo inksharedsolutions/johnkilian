@@ -11,7 +11,7 @@ const TaC = () =>{
 
 	const bannerText = (
 		<>
-			<span className="banr-tagline-fx">Hampton Scott Tonk</span>
+			<span className="banr-tagline-fx">John Kilian</span>
 			<h1 className="banr-header-fx">
 				Terms And
 				<span className="banr-spn-highlight" id="span-non-front">Conditions</span>
@@ -38,7 +38,7 @@ const TaC = () =>{
 	return(
 	 	<>
 	 		<Layout>
-				 <Helmet title="Terms and Conditions | Hampton Scott Tonk" />
+				 <Helmet title="Terms and Conditions | John Kilian" />
 	 			<Banner bannerContext={bannerText} />
 	 				<div className="container">
 						<div id="terms-and-conditions-content">

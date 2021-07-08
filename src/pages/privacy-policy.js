@@ -11,7 +11,7 @@ const Pp = () =>{
 	const bannerText = (
 		<>
 			<span className="banr-tagline-fx">
-			Hampton Scott Tonk
+			John Kilian
 			</span>
 
 			<h1 className="banr-header-fx">
@@ -40,7 +40,7 @@ const Pp = () =>{
 	return(
 		<>
 		 	<Layout>
-		 		<Helmet title="Privacy Policy | Hampton Scott Tonk" />
+		 		<Helmet title="Privacy Policy | John Kilian" />
 	 			<Banner bannerContext={bannerText} />
 
 	 			<div className="container">

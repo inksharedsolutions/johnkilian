@@ -1,11 +1,11 @@
 ---
   title: "Privacy Policy"
-  author: "Hampton Scott Tonk"
+  author: "John Kilian"
   date : "07-24-2019"
 ---
 
 
-Hampton Scott Tonk website is committed to safeguarding and preserving the privacy of our visitors.
+John Kilian website is committed to safeguarding and preserving the privacy of our visitors.
 
 This Policy explains what happens to any personal data that you provide to us, or that we collect from you whilst you visit our site and how we use cookies on this website.
 
@@ -13,7 +13,7 @@ This Policy from time to time so please do review this Policy regularly.
 
 ##Information That We collect
 
-In running and maintaining our website Hampton Scott Tonk website may collect and process the following data about you:
+In running and maintaining our website John Kilian website may collect and process the following data about you:
 
 Information about your use of our site including details of your visits such as pages viewed and the resources that you access. Such information includes traffic data, location data and other communication data.
 
@@ -44,7 +44,7 @@ To inform you of any changes to our website, services or goods and products.
 
 If you have previously purchased goods or services from us we may provide to you details of similar goods or services, or other goods and services, that you may be interested in.
 
-We never give your details to third parties to use your data to enable them to provide you with information regarding Hampton Scott Tonk goods or services.
+We never give your details to third parties to use your data to enable them to provide you with information regarding John Kilian goods or services.
 
 ##Storing Your Personal Data
 

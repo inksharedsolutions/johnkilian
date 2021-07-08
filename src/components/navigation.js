@@ -53,7 +53,7 @@ class Navigation extends React.Component {
 							<div className="logo-container-fx">
 								<Link to={'/'}>
 									<img src={MainLogo} alt="author-logo"/>
-									<h1>Hampton Scott Tonk</h1>
+							
 								</Link>
 							</div>
 						</div>

@@ -12,10 +12,10 @@ const IndexPage = () => {
 
 	const bannerText = (
 		<>
-			<span className="banr-tagline-fx">Hampton Scott Tonk</span>
+			<span className="banr-tagline-fx">John Kilian</span>
 			<h1 className="banr-header-fx">
-				<span className="banr-spn-2">It's God's time. It's Kingdom's time. It's the fullness of time. It's</span> 
-				<span className="banr-spn-highlight">God's Oppotunity!</span>
+				<span className="banr-spn-2">To survive our ignorance we must learn what  </span> 
+				<span className="banr-spn-highlight">will otherwise cause us to perish.</span>
 				
 				<Link
 					key=""
@@ -28,10 +28,10 @@ const IndexPage = () => {
 
 	return (
 	  	<Layout>
-			  <Helmet title="Home | Hampton Scott Tonk"/>
+			  <Helmet title="Home | John Kilian"/>
 	  		 <Banner bannerContext={bannerText} />
 			 <Main/>
-			 <MainBottom />
+			
 			 <Newsletter />
 	  	</Layout>
   	)

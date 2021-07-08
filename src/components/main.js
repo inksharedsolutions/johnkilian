@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import icon from '../assets/img/author/AuthorPhoto.png';
+import icon from '../assets/img/author/AuthorPhoto.jpg';
 
 const main = () => {
 	return (
@@ -13,19 +13,19 @@ const main = () => {
 				</div>
 
 				<div className="column is-three-fifths section-main-contents">
-					<p>
+				
 						<span className="icon-auhtor">
 							<img alt="author_icon" src={icon} />
-							<span className="author-name-tagline">
-								Hampton Scott Tonk
+							
 								<span className="author-fx" />
 							</span>
-						</span>
-					</p>
-
+	
+					<span className="author-name-tagline">
+								Hampton Scott Tonk
+								</span>
 					<p style={{textAlign: "justify"}}>
-                    Hampton Scott Tonk holds a Bachelor of Arts from DePauw University (1965) and a Master of Divinity degree from the Episcopal Theological (in 1974 "Divinity") School in Cambridge, Massachusetts (1972 – which  later merged with Union Theological Seminary in New York City).
-					</p>
+					John Kilian is a military officer and a former military intelligence analyst. He lives with his family in Middletown, CT,
+						</p>
 
 					<button className="btn-main-customize">
 						<Link to="/about-the-author#author"> Read More</Link>

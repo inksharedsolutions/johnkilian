@@ -40,19 +40,19 @@
 
 .icon-auhtor{
 	img{
-        width: 70px;
+        width: 100%;
         margin: 0;
 	}
 }
 
 .author-name-tagline{
-	
-    position: absolute;
-    margin: 17px;
+    font-weight: 900;
+    font-size: 1.5rem;
     letter-spacing: 2px;
     color: #deab1c;
-
+    line-height: 60px;
 }
+
    
 .author-fx{
     text-transform: uppercase;
@@ -70,7 +70,7 @@
 }
 
 .section-main-contents{
-    margin-top: 4em;
+    margin-top: 1em;
 }
 
 .main-bottom-wrapper{

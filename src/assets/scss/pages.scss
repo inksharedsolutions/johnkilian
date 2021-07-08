@@ -55,27 +55,30 @@ $prm-font-size : 12px;
 }
 
 .author-image-container{
+    text-align: center;
 	img{
-	    width: 178px;
+     
+	    width: 100%;
 	    border: 12px solid #e0e0db57;
 	}
 }
 
 .article-section{
 	p{
-		font-size: 15px;
-	    line-height: 2.2;
-	    // text-align: justify;
-	    color: #292828;
+	    font-size: 16px;
+    line-height: 2.2;
+    color: #292828;
+    font-weight: 800;
 	}
 }
 
 .author-name{
-    position: absolute;
+    position: relative;
     font-size: 26px;
-    margin: 60px 16px;
+    text-align: center;
 
     .author-span-ft{
+        text-align: center;
 	    display: block;
 	    font-size: 9px;
 	    letter-spacing: 4px;
@@ -97,7 +100,7 @@ $prm-font-size : 12px;
 
 	img{
 		max-width: 100%;
-        width: 75%;
+        width: 100%;
 	    padding: 0px;
 	    border: 29px solid #fff;
         margin:0;
@@ -114,8 +117,10 @@ $prm-font-size : 12px;
     text-align: justify;
     line-height: 2;
     padding: 2rem;
+   
     
-    p{
+    p{  
+       
     	margin-bottom: 14px;
     	line-height: 2;
     	font-size: 15px !important;

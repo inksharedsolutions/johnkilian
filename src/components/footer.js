@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { faTwitter, faInstagram, faFacebook, faGoodreads } from '@fortawesome/fontawesome-free-brands';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import Navlist from './links';
-import FooterLogo from '../assets/img/icon-logo/logo-white.png';
+import FooterLogo from '../assets/img/icon-logo/logo.png';
 
 const footer = (props) => {
 	return (
@@ -16,11 +16,11 @@ const footer = (props) => {
 								<img alt="footer-logo" src={FooterLogo} />
 							</span>
 
-							{/* <h1>Hampton Scott Tonk</h1> */}
+							{/* <h1>John Kilian</h1> */}
 						</div>
 
 						<p>
-							Hampton Scott Tonk loves to hear from readers. You can reach him via email. Feel free to send
+							John Kilian loves to hear from readers. You can reach him via email. Feel free to send
 							questions about writing, his works, interviews and other publicity matters.
 						</p>
 					</div>
@@ -42,7 +42,7 @@ const footer = (props) => {
 							&#169; Copyright. Stratton press
 						</span>
 
-						<span class="lower-nav-footer">
+						<span className="lower-nav-footer">
 							<li><Link to="/terms-and-conditions">Terms and Conditions</Link></li>
 							<li><Link to="/privacy-policy">Privacy Policy</Link></li>
 						</span>

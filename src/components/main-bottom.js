@@ -63,7 +63,7 @@ const Mainbottom = () =>{
 		<div className="feautured-links-logo">
 
 			<p className="featured-param">	
-				Hampton Scott Tonk has been featured numerous times on...
+				John Kilian has been featured numerous times on...
 			</p>
 				
  			<ul>

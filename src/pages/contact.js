@@ -9,7 +9,7 @@ const Contact = () =>{
 
 	const bannerText = (
 		<>
-			<span className="banr-tagline-fx">Hampton Scott Tonk</span>
+			<span className="banr-tagline-fx">John Kilian</span>
 			<h1 className="banr-header-fx">
 				<span className="banr-spn-highlight" id="span-non-front">Contact</span>
 			</h1>
@@ -40,7 +40,7 @@ const Contact = () =>{
 	return (
 
 		<Layout>
-			<Helmet title="Contact | Hampton Scott Tonk" />
+			<Helmet title="Contact | John Kilian" />
 			<Banner bannerContext={bannerText} />
 			<main className="flexMainContainer">
 				<div className="flex-container-fx">
