@@ -2,8 +2,6 @@ import React from 'react'
 import Layout from "../components/layout"
 import Banner from "../components/banner"
 import Book from '../assets/img/books/main_book1.png'
-import Book2 from '../assets/img/books/main_book2.png'
-import Book3 from '../assets/img/books/main_book3.png'
 import { DiscussionEmbed } from "disqus-react"
 import { Helmet } from "react-helmet"
 
@@ -20,7 +18,7 @@ const abouttheauthor= (props) =>{
 		<>
 			<span className="banr-tagline-fx">John Kilian</span>
 			<h1 className="banr-header-fx">
-				<span className="banr-spn-highlight" id="span-non-front">Books</span>
+				<span className="banr-spn-highlight" id="span-non-front">Book</span>
 			</h1>
 		</>
 	)

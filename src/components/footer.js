@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { faTwitter, faInstagram, faFacebook, faGoodreads } from '@fortawesome/fontawesome-free-brands';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import Navlist from './links';
-import FooterLogo from '../assets/img/icon-logo/logo.png';
+import FooterLogo from '../assets/img/icon-logo/logo2.png';
 
 const footer = (props) => {
 	return (
@@ -29,7 +29,7 @@ const footer = (props) => {
 						<nav className="footer-nav-list">
 							<li><Link to="/">Home</Link></li>
 							<li><Link to="/about-the-author">About the Author</Link></li>
-							<li><Link to="/books">Books</Link></li>
+							<li><Link to="/books">Book</Link></li>
 							<li><Link to="/contact">Contact</Link></li>
 						</nav>
 					</div>
@@ -71,7 +71,7 @@ const footer = (props) => {
 							</a>
 
 							<a
-								href="https://www.goodreads.com/book/show/30063215-god-s-opportunity?from_search=true&from_srp=true&qid=n0PcJFRkSe&rank=5"
+								href="https://www.goodreads.com/user/show/89077099-stratton-press"
 								target="_blank"
 								rel="noopener noreferrer"
 							>

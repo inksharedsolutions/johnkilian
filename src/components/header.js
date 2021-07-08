@@ -4,7 +4,7 @@ import Nav from './navigation';
 
 const Header = ({ siteTitle }) => (
 	<header>
-		<Nav navList={[ 'Home', 'About the Author', 'Books', 'Contact' ]} />
+		<Nav navList={[ 'Home', 'About the Author', 'Book', 'Contact' ]} />
 	</header>
 );
 

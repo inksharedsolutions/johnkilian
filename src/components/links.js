@@ -24,7 +24,7 @@ const link = (props) =>{
 
 			{/* <li><Link to="/">Home</Link></li>
 			<li><Link to="/about-the-author">About the Author</Link></li>
-			<li><Link to="/books">Books</Link></li>
+			<li><Link to="/books">book</Link></li>
 			<li><Link to="/contact">Contact</Link></li> */}
 		</>
 	)
