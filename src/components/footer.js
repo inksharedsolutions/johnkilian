@@ -51,7 +51,7 @@ const footer = (props) => {
 					<div className="column text-center trademark-heading">
 						<nav id="style_soc_medias">
 							<a
-								href="https://www.facebook.com/StrattonPressInc/"
+								href="https://www.facebook.com/John-Kilian-109581777894128"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -71,7 +71,7 @@ const footer = (props) => {
 							</a>
 
 							<a
-								href="https://www.goodreads.com/user/show/89077099-stratton-press"
+								href="https://www.goodreads.com/book/show/57071990-gospels-of-the-new-nile"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
