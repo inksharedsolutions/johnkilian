@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { faTwitter, faInstagram, faFacebook, faGoodreads } from '@fortawesome/fontawesome-free-brands';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import Navlist from './links';
-import FooterLogo from '../assets/img/icon-logo/logo2.png';
+import FooterLogo from '../assets/img/icon-logo/logo.png';
 
 const footer = (props) => {
 	return (
@@ -29,7 +29,7 @@ const footer = (props) => {
 						<nav className="footer-nav-list">
 							<li><Link to="/">Home</Link></li>
 							<li><Link to="/about-the-author">About the Author</Link></li>
-							<li><Link to="/books">Book</Link></li>
+							<li><Link to="/books">About the Book</Link></li>
 							<li><Link to="/contact">Contact</Link></li>
 						</nav>
 					</div>
